@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David CV</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="#Whoami" class="texto-nav logo">whoami -> David Ca&#241;edo V&#233;rtiz</a>
+      <div class="header-derecha">
+        <nav>
+          <a href="#About" class="texto-nav">~/about</a>
+          <a href="#Resume" class="texto-nav">~/resume</a>
+          <a href="#Projects" class="texto-nav">~/projects</a>
+          <a href="#Skills" class="texto-nav">~/skills</a>
+          <a href="#Contact" class="texto-nav">~/contact</a>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <!-- WHOAMI -->
+      <section id="Whoami" class="seccion whoami-section">
+        <div class="terminal-window">
+          <div class="terminal-bar">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">bash &mdash; david@unam: ~</span>
+          </div>
+          <div class="terminal-body">
+            <p class="comando"><span class="prompt">david@unam:~$</span> whoami</p>
+            <h1 class="nombre" id="tipear_nombre" style="min-height:4rem;"></h1>
+            <p class="comando" id="cmd2" style="display:none;"><span class="prompt">david@unam:~$</span> cat me.txt</p>
+            <h3 class="descripcion" id="tipear_descri" style="min-height:2rem;"></h3>
+            <div class="social-links" id="social_links">
+              <a href="https://github.com/DavidCV61" target="_blank" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="https://linkedin.com/in/davcanver" target="_blank" class="social-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+              <a href="mailto:canedovertizdavid@gmail.com" class="social-btn"><i class="fa-solid fa-envelope"></i> Email</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="About" class="seccion about-section">
+        <p class="comando"><span class="prompt">david@unam:~$</span> cat about_me.txt</p>
+        <h1 class="titulo">About me</h1>
+        <div class="about-text">
+          <p class="texto">I am a student in constant professional growth. I am currently completing my social service as a Full Stack Developer at the <span class="highlight">Institute of Applied Mathematics and Systems Research (IIMAS)</span>, where I contribute to the development of a web application that integrates Artificial Intelligence components using technologies such as Django and React.</p>
+          <p class="texto">Previously, I worked as a <span class="highlight">Cloud Engineering intern at Huawei</span>, focusing on cloud and network infrastructure deployment, automation, and server/database administration. I also collaborate with the <span class="highlight">Free Software Development Laboratory (LidSol)</span>, contributing to backend and infrastructure projects using Go, Docker, and Kubernetes.</p>
+          <p class="texto">One of my hobbies is <span class="highlight">competitive programming</span>, where I have participated in contests such as ICPC with good results. In my free time, I also enjoy reading, playing the piano, and chess.</p>
+        </div>
+      </section>
+
+      <!-- RESUME -->
+      <section id="Resume" class="seccion">
+        <p class="comando"><span class="prompt">david@unam:~$</span> ls resume/</p>
+        <h1 class="titulo">Resume</h1>
+
+        <div class="timeline">
+          <p class="comando"><span class="prompt">david@unam:~$</span> cat university.txt</p>
+          <h2 class="subtitulo">Education</h2>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="tiempo">2020 &mdash; Present</h3>
+              <p class="posicion">B.Sc. in Electrical and Electronic Engineering</p>
+              <p class="lugar"><i class="fa-solid fa-graduation-cap"></i> National Autonomous University of Mexico</p>
+            </div>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="timeline">
+          <p class="comando"><span class="prompt">david@unam:~$</span> cat work.txt</p>
+          <h2 class="subtitulo">Work Experience</h2>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="tiempo">2025 &mdash; Present</h3>
+              <p class="posicion">Web Application Development Intern</p>
+              <p class="lugar"><i class="fa-solid fa-building"></i> IIMAS-UNAM</p>
+              <ul class="texto">
+                <li>Contributed to the full-stack development of MIOPERS, an NLP web application, assisting in database design and system architecture.</li>
+                <li>Developed features using Flask for the backend and React for the frontend, following modular and scalable principles.</li>
+                <li>Performed application maintenance and updated technical documentation, ensuring system reliability and knowledge sharing.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3 class="tiempo">2024 &mdash; 2025</h3>
+              <p class="posicion">Cloud Technical Account Manager Intern</p>
+              <p class="lugar"><i class="fa-solid fa-building"></i> Huawei</p>
+              <ul class="texto">
+                <li>Configured and administered network infrastructure for enterprise servers, including routers, switches, and firewalls, ensuring optimal performance, secure connectivity, and high availability across Huawei Cloud and on-premises environments.</li>
+                <li>Implemented end-to-end cloud solutions using Huawei Cloud, deploying and configuring services such as ECS, VPC, RDS, CCE, CFW, WAF, and VPN Gateway.</li>
+                <li>Experienced in Linux system administration (Oracle Linux, Red Hat, SUSE, Debian, Ubuntu) and Windows Server environments (2012, 2019, Active Directory).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <br><br>
+        <div class="boton">
+          <a class="button" href="./DCVRESUME.pdf" download="DavidCV.pdf"><i class="fa-solid fa-download"></i> Download my CV :)</a>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="Projects" class="seccion projects-section">
+        <p class="comando"><span class="prompt">david@unam:~$</span> tree projects/</p>
+        <h1 class="titulo">Projects</h1>
+
+        <div class="tree-container">
+          <div class="tree-root">projects/</div>
+
+          <div class="tree-branch">
+            <div class="tree-connector">&#9500;&#9472;&#9472;</div>
+            <div class="project-card">
+              <div class="project-header">
+                <span class="tree-folder"><i class="fa-solid fa-folder-open"></i> MIOPERS-V3/</span>
+                <a href="http://132.248.51.189:8080/" class="proj-link" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+              <div class="tree-files">
+                <div class="tree-file"><span class="tree-pipe">&#9474;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472;</span> <span class="file-tag tag-desc">README</span> <span class="file-name">Data analysis platform with dashboard visualization and CSV handling</span></div>
+                <div class="tree-file"><span class="tree-pipe">&#9474;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472;</span> <span class="file-tag tag-feat">FEATURE</span> <span class="file-name">Real-time progress bars and intuitive UX improvements</span></div>
+                <div class="tree-file"><span class="tree-pipe">&#9474;&nbsp;&nbsp;&nbsp;&#9492;&#9472;&#9472;</span> <span class="file-tag tag-fix">DEBUG</span> <span class="file-name">Backend API integration, authentication handling &amp; error resolution</span></div>
+              </div>
+              <div class="project-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tree-branch">
+            <div class="tree-connector">&#9492;&#9472;&#9472;</div>
+            <div class="project-card">
+              <div class="project-header">
+                <span class="tree-folder"><i class="fa-solid fa-folder-open"></i> cv-generator/</span>
+                <a href="https://cv-generator.dvcool.com" class="proj-link" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+              <div class="tree-files">
+                <div class="tree-file"><span class="tree-pipe">&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472;</span> <span class="file-tag tag-desc">README</span> <span class="file-name">Full-stack web app to create CVs via multi-step form and export to PDF</span></div>
+                <div class="tree-file"><span class="tree-pipe">&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472;</span> <span class="file-tag tag-feat">FRONTEND</span> <span class="file-name">React + TypeScript with global state management and smooth navigation</span></div>
+                <div class="tree-file"><span class="tree-pipe">&nbsp;&nbsp;&nbsp;&nbsp;&#9492;&#9472;&#9472;</span> <span class="file-tag tag-fix">INFRA</span> <span class="file-name">Dockerized with Nginx as reverse proxy for frontend &amp; Flask backend</span></div>
+              </div>
+              <div class="project-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Flask</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Nginx</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tree-summary">2 directories, 6 files</div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="Skills" class="seccion">
+        <p class="comando"><span class="prompt">david@unam:~$</span> ls -la technologies/</p>
+        <h2 class="titulo">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-category">
+            <p class="skill-cat-title"><i class="fa-solid fa-layer-group"></i> Frontend</p>
+            <ul class="textoSkills">
+              <li><i class="fa-brands fa-react"></i> React</li>
+              <li><i class="fa-brands fa-html5"></i> HTML, CSS &amp; JavaScript</li>
+              <li><i class="fa-brands fa-js"></i> TypeScript</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <p class="skill-cat-title"><i class="fa-solid fa-server"></i> Backend</p>
+            <ul class="textoSkills">
+              <li><i class="fa-brands fa-python"></i> Python &amp; Django</li>
+              <li><i class="fa-brands fa-java"></i> Java &amp; Spring Boot</li>
+              <li><i class="fa-brands fa-golang"></i> Golang</li>
+              <li><i class="fa-solid fa-code"></i> C++</li>
+              <li><i class="fa-brands fa-php"></i> PHP</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <p class="skill-cat-title"><i class="fa-solid fa-cloud"></i> Cloud &amp; Infra</p>
+            <ul class="textoSkills">
+              <li><i class="fa-brands fa-aws"></i> AWS</li>
+              <li><i class="fa-brands fa-docker"></i> Docker &amp; Kubernetes</li>
+              <li><i class="fa-brands fa-centos"></i> Linux Server Admin</li>
+              <li><i class="fa-brands fa-linux"></i> Bash Scripting</li>
+              <li><i class="fa-solid fa-database"></i> Database Management</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="seccion contact-section" id="Contact">
+        <p class="comando"><span class="prompt">david@unam:~$</span> cat contact.me</p>
+        <h2 class="titulo">Contact</h2>
+        <p class="texto">If you want to contact me, ask me a question, or just say hello, you can reach me via email or my social networks.</p>
+        <br>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <i class="fa-solid fa-envelope contact-icon"></i>
+            <p class="contact-label">Email</p>
+            <a class="contact-value" href="mailto:canedovertizdavid@gmail.com">canedovertizdavid@gmail.com</a>
+          </div>
+          <div class="contact-card">
+            <i class="fa-brands fa-github contact-icon"></i>
+            <p class="contact-label">GitHub</p>
+            <a class="contact-value" href="https://github.com/DavidCV61" target="_blank">github.com/DavidCV61</a>
+          </div>
+          <div class="contact-card">
+            <i class="fa-brands fa-linkedin contact-icon"></i>
+            <p class="contact-label">LinkedIn</p>
+            <a class="contact-value" href="https://linkedin.com/in/davcanver" target="_blank">linkedin.com/in/davcanver</a>
+          </div>
+        </div>
+        <br><br>
+        <p class="comando"><span class="prompt">david@unam:~$</span> echo $CONTACT</p>
+        <br>
+        <div class="boton">
+          <a class="button" href="mailto:canedovertizdavid@gmail.com"><i class="fa-solid fa-paper-plane"></i> Send me an email :)</a>
+        </div>
+        <br>
+      </section>
+    </main>
+
+    <div class="footer">
+      <p class="comando"><span class="prompt">david@unam:~$</span> exit</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
